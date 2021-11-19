@@ -6,8 +6,8 @@ use Twilio\Rest\Client;
 
 function send_sms($name, $email)
 {
-    $sid = "AC9f06b54a2bf536b781bf3113de01a68d";
-    $token = "d31c3a764336a0dfa72654224cc84553"; 
+    $sid = "";
+    $token = ""; 
 
     $client = new Client($sid, $token);
     $client->messages->create(
