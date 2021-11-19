@@ -1,15 +1,20 @@
 /*
  * Header
  */
+
+  header{
+    padding: 10px 40px 0px 40px;
+  }
+
  h3 {
-    color: #9b2963;
+    color: #D6A346;
     font-size: 40px;
   }
   
   .nav-masthead .nav-link {
     padding: .25rem 0;
     font-weight: 700;
-    color: #9b2963;
+    color: #D6A346;
     background-color: transparent;
     border-bottom: .25rem solid transparent;
   }
@@ -28,7 +33,7 @@
   }
   
   .nav-masthead .active {
-    color: #9b2963;
+    color: #D6A346;
     border-bottom-color: #fff;
   }
   
@@ -39,6 +44,7 @@
 body {
     background: url("/img/bg.jpg") no-repeat, center;
     background-size: cover;
+    flex-direction: column;
   }
   
   .cover-container {
@@ -46,10 +52,11 @@ body {
   }
   
   main {
-    background-color: #333333;
+    background-color: #605c5c; 
     opacity: 0.85;
-    padding: 40px 40px 40px 40px !important;
-    color: #ffffff;
+    padding: 20px 20px 20px 20px !important;
+    color: #ffdea2;
+    margin-top: 20%;
   }
   
   .lead {
@@ -58,8 +65,9 @@ body {
   }
   
   .btn-secondary {
-    background-color: #9b2963;
-    border-color: #9b2963;
+    background-color: #D6A346;
+    
+    border-color: #D6A346;
     color: #fff;
     padding: 12px 40px;
     font-weight: bold;
@@ -69,6 +77,11 @@ body {
     background-color: #fff !important;
     border-color: #fff !important;
     color: #333;
+  }
+
+  .lead img{
+    height: 30%;
+    width: 30%;
   }
 
   /*
@@ -85,17 +98,49 @@ body {
   .modal-header {
     flex-direction: column;
     padding-bottom: 0 !important;
+    border: none;
   }
   
   .modal-title {
-    color: #9b2963;
-    font-size: 25px;
+    color: #D6A346;
+    font-size: 40px;
   }
-  
-  .form-label {
-    color: #333333;
+
+  .modal-content{
+    background-color: #605c5c; 
+    
+    border: none;
   }
+
+  .modal-dialog{
+    max-width: 60%;
+    margin-top: 10%;
+    color: #D6A346;
+    font-size: 15px;
+  }
+
+  .modal-text{
+    color: #ffffff;
+    font-size: 30px;
+  }
+
+  .modal-footer {
+    
+    border: none;
+  }
+
+  .form-label{
+      color: #D6A346;
+      font-size: 25px;
+    }
+
+  form{
+    text-align: left;
+    padding-left: 10%;
+  }
+
   
+
   div.mb-3 {
     text-align: left !important;
   }
