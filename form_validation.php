@@ -35,4 +35,4 @@ if (filter_has_var(INPUT_POST, 'submit')) {
     //     $msg = "Please use a valid email";
     //     $alert = "alert-danger";
     // }
-}
+//}

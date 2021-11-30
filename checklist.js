@@ -17,3 +17,4 @@ checkboxes.forEach(function (checkbox) {
         console.log(checkedItem)
     })
 });
+

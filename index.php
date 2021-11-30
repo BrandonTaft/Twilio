@@ -60,21 +60,21 @@
             
             <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for=""class="form-label">Check Email</label>
-        <input type="checkbox"  name="checkList" value="Checked Email"><br />
+        <input type="checkbox" class="check"  name="checkList" value="Checked Email"><br />
         <label for=""class="form-label">Submit Applicatons</label>
-        <input type="checkbox"  name="checkList" value="Submitted Applications"><br />
+        <input type="checkbox" class="check" name="checkList" value="Submitted Applications"><br />
         <label for=""class="form-label">Follow Up With Potential Employers</label>
-        <input type="checkbox"  name="checkList" value="Followed Up"><br />
+        <input type="checkbox" class="check" name="checkList" value="Followed Up"><br />
         <label for=""class="form-label">Develop Skills</label>
-        <input type="checkbox"  name="checkList" value="Practiced/Studied"><br />
+        <input type="checkbox" class="check" name="checkList" value="Practiced/Studied"><br />
         <label for=""class="form-label">Work on Algorithms</label>
-        <input type="checkbox"  name="checkList" value="Worked Algorithms"><br />
+        <input type="checkbox" class="check" name="checkList" value="Worked Algorithms"><br />
         <label for=""class="form-label">Make A New Connection</label>
-        <input type="checkbox"  name="checkList" value="Made Connection"><br />
+        <input type="checkbox" class="check" name="checkList" value="Made Connection"><br />
         <label for=""class="form-label">Take A Break/ Relax</label>
-        <input type="checkbox"  name="checkList" value="Relaxed"><br />
+        <input type="checkbox" class="check" name="checkList" value="Relaxed"><br />
         <label for=""class="form-label">Exercise</label>
-        <input type="checkbox"  name="checkList" value="Exercised"><br />
+        <input type="checkbox" class="check" name="checkList" value="Exercised"><br />
         
 
               <!-- <div class="mb-3">
