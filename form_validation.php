@@ -27,7 +27,7 @@ if (filter_has_var(INPUT_POST, 'submit')) {
             $alert = "alert-danger";
         }
     }
-
+}
     // if (empty($name) || empty($email)) {
     //     $msg = "Please fill in all fields";
     //     $alert = "alert-danger";
